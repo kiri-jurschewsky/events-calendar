@@ -2,12 +2,41 @@ html {
   font-family: Merriweather, serif;
 }
 
-tbody td {
-  height: 10em;
-}
-
 .calendar,
 td,
 th {
   border: 1px solid #ccc;
+}
+
+tbody td {
+  height: 10em;
+}
+
+.blue {
+  background-color: #d2d6f0;
+  color: #38448e;
+  border: 1px solid #1d38da;
+  border-radius: 4px;
+}
+
+.grey {
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #666;
+  border-radius: 8px;
+
+}
+
+.green {
+  background-color: #d1e0bf;
+  color: #51603f;
+  border: 1px solid #6b7e54;
+  border-radius: 4px;
+}
+
+.red {
+  background-color: #f2bcbc;
+  color: #991919;
+  border: 1px solid  #b92828;
+  border-radius: 8px;
 }
